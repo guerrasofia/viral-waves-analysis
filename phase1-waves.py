@@ -4,7 +4,7 @@
 vague.py — Viral waves detection with hysteresis (K/H), optional normalization and temporal redistribution.
 Outputs a per-post diagnostic table.
 
-Privacy note: avoid committing raw data. Use --anonymize to hash identifiers when exporting.
+Privacy note: Use --anonymize to hash identifiers when exporting.
 """
 
 from __future__ import annotations
@@ -218,3 +218,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
